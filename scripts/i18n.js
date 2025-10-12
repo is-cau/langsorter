@@ -2,7 +2,7 @@ const langRequested = window.location.search.substring(1).split('&')[0]
 const langEnforce = langRequested ? [langRequested] : null
 
 export async function loadL10n() {
-    const langs = ['en','zhcn']
+    const langs = ['zhcn']
     const [l10nDataList, i18nBuilderMod] = await Promise.all([
         Promise.all(langs.map(lang =>
             fetch(`./scripts/l10n/${lang}.json`)
