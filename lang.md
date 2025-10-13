@@ -106,7 +106,7 @@ package mz {
 	}
 }
 package mr {
-	(python)
+	(free_python)
 }
 package zq {
 	package coin_old {
