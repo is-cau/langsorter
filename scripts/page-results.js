@@ -15,10 +15,6 @@ document.getElementById("indexbutton").innerHTML = i18n.ui_results_back
 document.getElementById("indexbutton").onclick = () => location.href = `index.html?${i18n.$lang}`
 document.getElementById("creditsbutton").innerHTML = i18n.ui_results_credits
 
-if (i18n.$l10nData.en[`ideo_${ideo}`]) { // has translation defined to this ideo.
-    document.getElementById("image").src = `assets/flags/${ideo}_flag.svg`
-    document.getElementById("result").innerHTML = i18n[`ideo_${ideo}`]
-    document.getElementById("desc").innerHTML = i18n[`ideo_${ideo}_desc`]
-} else {
-    throw404()
-}
+document.getElementById("image").src = `assets/flags/${ideo}_flag.svg`
+document.getElementById("result").innerHTML = i18n[`ideo_${ideo}`]
+document.getElementById("desc").innerHTML = i18n[`ideo_${ideo}_desc`]
