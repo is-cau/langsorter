@@ -1,6 +1,6 @@
-- python
+- free_python
 - cpp
-- new-cpp
+- new_cpp
 - c
 - java
 - js
@@ -10,7 +10,6 @@
 - vb
 - fortran
 - asm
-- matlab
 - php
 - rust
 - ruby
