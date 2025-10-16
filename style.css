@@ -97,7 +97,7 @@ button {
 #image {
     display: block;
     margin: 2% auto;
-    max-width: 50%;
+    width: 30%;
     height: auto;
     border-radius: 2em;
 }
@@ -381,7 +381,7 @@ button {
     font-size: 5vw;
   }
   #image {
-    max-width: 80%;
+    width: 50%;
   }
   #result {
     font-size: 8vw;
