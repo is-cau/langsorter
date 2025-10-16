@@ -5,8 +5,8 @@ import questions from "./questions.js"
 
 let lang = 'pt'
 
-document.getElementById("tree_title").innerText = i18n.ui_tree_title
-document.getElementById("tree_info").innerText = i18n.ui_tree_info
+document.getElementById("tree_title").innerHTML = i18n.ui_tree_title
+document.getElementById("tree_info").innerHTML = i18n.ui_tree_info
 
 function build_brabch(root, answer, questionId) {
     const question = questions[questionId]
@@ -15,12 +15,12 @@ function build_brabch(root, answer, questionId) {
     const children = document.createElement('div')
     if (answer) {
         const answerEl = document.createElement('span')
-        answerEl.innerText = buttons[answer].text
+        answerEl.innerHTML = buttons[answer].text
         branch.appendChild(answerEl)
     }
     branch.tabIndex = 0 // Make it focusable
     root.appendChild(branch)
-    questionEL.innerText = question.question
+    questionEL.innerHTML = question.question
     branch.appendChild(questionEL)
     branch.appendChild(children)
     question.answers.forEach(answer => {
@@ -39,13 +39,13 @@ function build_result(root, answer, resultId) {
     const resultEL = document.createElement('strong')
     const descEL = document.createElement('p')
     const img = document.createElement('img')
-    answerEl.innerText = buttons[answer].text
+    answerEl.innerHTML = buttons[answer].text
     branch.appendChild(answerEl)
     branch.tabIndex = 0 // Make it focusable
     root.appendChild(branch)
-    resultEL.innerText = i18n[`ideo_${resultId}`]
+    resultEL.innerHTML = i18n[`ideo_${resultId}`]
     branch.appendChild(resultEL)
-    descEL.innerText = i18n[`ideo_${resultId}_desc`]
+    descEL.innerHTML = i18n[`ideo_${resultId}_desc`]
     branch.appendChild(descEL)
     img.src = `assets/flags/${resultId}_flag.svg`
     branch.appendChild(img)
