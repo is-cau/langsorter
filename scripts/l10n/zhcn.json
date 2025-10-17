@@ -1,6 +1,6 @@
 {
   "lang_name": "简体中文",
-  "translators": "<li> <a href=\"https://github.com/lixiang810\" >lixiang810</a></li>",
+  "translators": "<li> <a href=\"https://github.com/E0SelmY4V\">E0SelmY4V</a></li><li> <a href=\"https://github.com/coconummt\">coconummt</a></li>",
   "ui_index_title": "Langsorter / 语言大评测",
   "ui_index_text": "<h2>Langsorter 是什么？</h2><p>Langsorter 本质上是一个心理学测验，它将通过向你提出问题来得出一个与你的心灵最贴合的编程语言。这个测试将基于流程图模型，根据你对这些问题的回答，把<span id='ideo_length'></span>种不同编程语言之一分配给你。也许你能贴合一些你自己知道的语言！</p><h2>我不明白其中一个问题！</h2><p>这个测验是一个心灵测验，如果你有什么不懂的，跟着你的感觉走就行了。</p><h2>我不喜欢我被匹配到的编程语言！</h2><p>¯\\_(ツ)_/¯</p>",
   "ui_index_start": "点击开始",
